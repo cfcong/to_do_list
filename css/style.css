@@ -1,13 +1,20 @@
-ol li {
-  list-style: none;
-  width: 400px;
-  height: 30px;
+body .container {
+  height: 1000px;
+  width: 600px;
   padding: 10px;
-  border: 3px solid lightblue;
-  background-color: white;
-  border-radius: 4px;
-  font-size: 1.2em; }
-  ol li button {
+  border: 5px solid darkblue;
+  background-color: beige;
+  border-radius: 3px; }
+  body .container ol li {
+    list-style: none;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border: 3px solid lightblue;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.2em; }
+  body .container ol button {
     float: right;
     font-size: 0.8em;
     color: red;
